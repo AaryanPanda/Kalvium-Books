@@ -1,0 +1,70 @@
+.wrpper {
+    max-width: 400px;
+    height: 510px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+   margin: 0;
+   padding: 0;
+  }
+  
+  #search input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .wrpper input {
+    height: 45px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    background-color: #2d7831;
+  }
+
+  #input-bar{
+    width: 400px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+  #intro{
+    font-size: 26px;
+    font-family: 'Roboto Serif', sans-serif;
+    color: #ed3a35;
+  }
+  #btn-div{
+padding-top: 20px;
+  }
+  .form-inp{
+    height: 30px;
+}
